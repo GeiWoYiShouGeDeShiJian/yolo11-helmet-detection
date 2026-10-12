@@ -1,0 +1,10 @@
+# dataset/data.yaml
+path: ./dataset  # 数据集根目录的相对路径
+train: train/images  # 训练集路径（相对于 path）
+val: val/images      # 验证集路径（相对于 path）
+test: test/images    # 测试集路径（相对于 path，可选）
+
+# 类别数量
+nc: 2
+# 类别名称列表（顺序对应标注文件中的类别索引 0 和 1）
+names: ['helmet', 'no_helmet']

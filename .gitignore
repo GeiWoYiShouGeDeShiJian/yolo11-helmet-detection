@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 数据集（体积过大，请从 Kaggle 下载）
+dataset/train/
+dataset/val/
+dataset/test/
+*.cache
+
+# 运行产物与视频
+saved_results/
+00.mp4
